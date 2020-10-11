@@ -5,7 +5,7 @@ var randomNumber = function (min, max) {
 
 var fightOrSkip = function () {
   // ask user if they'd like to fight or skip using  function
-  var promptFight = window.prompt('Would you like FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.', 'FIGHT');
+  var promptFight = window.prompt('Would you like FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
 
   // Conditional Recursive Function Call
   if (promptFight === "" || promptFight === null) {
